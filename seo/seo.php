@@ -29,7 +29,7 @@ function seo_add_form()
 {
     add_meta_box(
         'my-meta-box',
-        __('My Meta Box'),
+        __('My Meta Box'), // __() est une fonction qui traduit
         'render_my-meta-box',
         'page',
         'normal',
